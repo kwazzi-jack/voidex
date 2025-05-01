@@ -1,0 +1,99 @@
+.stApp {
+    background-color: #0e1117;
+    color: #e6e6e6;
+}
+
+.main-header {
+    font-family: 'Cinzel', serif !important;
+    text-align: center !important;
+    margin-bottom: 0 !important;
+    color: #d4af37 !important;
+}
+
+.sub-header {
+    font-family: 'Lato', sans-serif !important;
+    text-align: center !important;
+    font-size: 1.2rem !important;
+    margin-top: 0 !important;
+    color: #a9a9a9 !important;
+    margin-bottom: 2rem !important;
+}
+
+/* More specific selectors to override Streamlit's default styles */
+.css-1dp5vir h1,
+.css-1dp5vir h2,
+.css-1dp5vir h3,
+.css-18e3th9 h1,
+.css-18e3th9 h2,
+.css-18e3th9 h3,
+.css-1d391kg h1,
+.css-1d391kg h2,
+.css-1d391kg h3,
+h1,
+h2,
+h3 {
+    font-family: 'Cinzel', serif !important;
+    text-align: center !important;
+    color: #d4af37 !important;
+}
+
+/* Target sidebar headers specifically */
+.css-1fv8s86 h1,
+.css-1fv8s86 h2,
+.css-1fv8s86 h3,
+.css-1adrfps h1,
+.css-1adrfps h2,
+.css-1adrfps h3,
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    font-family: 'Cinzel', serif !important;
+    text-align: center !important;
+    color: #d4af37 !important;
+}
+
+.stChatMessage {
+    background-color: rgba(14, 17, 23, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.stChatMessage[data-role="user"] {
+    background-color: rgba(70, 70, 90, 0.2);
+    border-left: 3px solid #7289da;
+    align-self: flex-start;
+    max-width: 80%;
+}
+
+.stChatMessage[data-role="assistant"] {
+    background-color: rgba(40, 40, 60, 0.2);
+    border-left: 3px solid #d4af37;
+    align-self: flex-end;
+    max-width: 80%;
+}
+
+.chat-input {
+    border-radius: 15px;
+    border: 1px solid #333;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.file-manager {
+    background-color: rgba(30, 33, 40, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.sidebar-content {
+    background-color: rgba(20, 23, 30, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
